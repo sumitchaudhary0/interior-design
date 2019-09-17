@@ -1,0 +1,43 @@
+
+.assetcard {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ .numbers {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-container {
+    width: 43px;
+  
+    padding: 0 19px;
+}
+
+.numbers, .name {
+    color: white;
+}
+.name{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .assetcard {
+       
+        justify-content: unset;
+        margin: 0 auto;
+    }
+    
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .assetcard {
+       
+        justify-content: unset;
+        margin: 0 auto;
+    }
+  }
+  

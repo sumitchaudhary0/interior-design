@@ -1,0 +1,25 @@
+.AssetBar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .AssetBar
+    {
+        flex-direction: column;
+    }
+    
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .AssetBar
+    {
+        flex-direction: column;
+    }
+    
+  }
+  
+
+  

@@ -1,0 +1,43 @@
+.bannercard {
+    background: #00000059;
+    color: white;
+    text-align: center;
+    max-width: 51%;
+    margin: 0 auto;
+    padding: 48px 10px;
+}
+
+.btn-banner {
+    color: white;
+}
+.banner-content
+{
+    padding: 10px 0 25px 0;
+}
+.banner-content p
+{
+    padding: 2px 0px;
+}
+/********************* MEDIA QUERIES ***************************/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    h1
+    {
+        font-size:40px;
+    }
+    .bannercard {
+       
+        max-width: 80%;
+        
+    }
+   }
+
+   @media (min-width: 481px) and (max-width: 767px) {
+  
+ 
+.bannercard {
+   
+    max-width: 75%;
+}
+}
+  

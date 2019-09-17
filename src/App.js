@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import BannerCard from './Components/Banner/BannerCard/BannerCard';
+import AssetBar from './Components/AssetBar/AssetBar';
+import OurServices from './Components/OurServices/OurServices';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <div className="banner-Navbar-wrapper">
+          <div className="nav-wrapper">
+            <Navbar />
+          </div>
+          <div className="banner-bg-wrapper">
+            <BannerCard />
+          </div>
+        </div>
+        <div className="Asset-Bar-Wrapper">
+          <AssetBar />
+        </div>
+         <OurServices />
+      </React.Fragment>
+    )
+  }
 }
-
-export default App;

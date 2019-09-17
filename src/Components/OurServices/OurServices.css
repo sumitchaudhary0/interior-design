@@ -1,0 +1,10 @@
+.ourservice 
+{
+    text-align: center;
+}
+.servicecard
+{
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+}

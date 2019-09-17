@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    line-height: 68px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    padding: 0 20px;
+}
+
+.logo a {
+    color: #fd9631 !important;
+    font-size: 37px !important;
+}
+
+/****************** MEDIA QUERIES*********************************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar li a {
+        padding: 0 10px;
+    }
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar {
+        display: none
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar {
+        display: none
+    }
+}
